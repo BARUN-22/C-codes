@@ -1,0 +1,22 @@
+// TO KNOW THE CHARACTER IS LOWER CASE AND UPPER CASE
+
+
+#include<stdio.h>
+
+int main() {
+	char ch;
+//lower case and upper case
+	printf("Enter the number :");
+	scanf("%c",&ch);
+
+	if(ch>='A' && ch<='Z') {
+		printf("upper case \n");
+	}
+	else if(ch>='a' && ch<='z') {
+		printf("lower case \n");
+	} else {
+		printf("not english letter");
+	}
+
+}
+
